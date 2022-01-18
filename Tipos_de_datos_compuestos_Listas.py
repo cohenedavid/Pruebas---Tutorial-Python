@@ -33,3 +33,12 @@ print(numeros_impares)
 # Agregar un nuevo elemento al FINAL de la lista con la función append()
 numeros_impares.append(13)
 print(numeros_impares)
+
+# Reemplazar valores intermedios dentro de una lista mediante rebanadas
+abecedario = ['a','b','c','d','e','l','m','n','i','j']  # Acá los caracteres l,m,n están mal ubicados
+print(abecedario)                                       # Debemos reemplazarlos por f,g,h que están
+# Salida -> ['a', 'b', 'c', 'd', 'e', 'l', 'm', 'n', 'i', 'j']    # ubicados en las posiciones 5,6,7
+abecedario[5:8] = ['f','g','h'] # lo reemplazamos empleando rebanadas
+print(abecedario) # Vemos que ahora ha quedado correctamente
+# Salida -> ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+
