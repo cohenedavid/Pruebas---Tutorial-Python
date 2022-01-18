@@ -1,3 +1,9 @@
+
+"""
+Strings: rebanadas, función len()
+
+"""
+
 word = "Python"
 
 rebanada1 = word[0:6]   # desde el caracter 0 (incluido) hasta el 6 (excluido)
